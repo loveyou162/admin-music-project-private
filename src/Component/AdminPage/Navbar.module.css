@@ -1,0 +1,23 @@
+.navbar {
+  height: 868px;
+  background-color: #f8f9fa;
+  grid-area: 2/1/3/2;
+  color: #000;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+.navbar a.active,
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 16px;
+  text-decoration: none;
+  color: #000;
+}
+.navbar a.active,
+.navItem:hover {
+  background-color: #bebebe96;
+  color: #535bf2;
+}
